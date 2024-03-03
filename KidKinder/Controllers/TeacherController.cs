@@ -1,10 +1,7 @@
 ﻿using KidKinder.Context;
 using KidKinder.Entities;
-using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace KidKinder.Controllers
@@ -22,11 +19,11 @@ namespace KidKinder.Controllers
         public ActionResult CreateTeacher()
         {
             List<SelectListItem> values = (from x in context.Branches.ToList()
-                                                    select new SelectListItem
-                                                    {
-                                                        Text = x.BranchName,
-                                                        Value = x.BranchId.ToString()
-                                                    }).ToList();
+                                           select new SelectListItem
+                                           {
+                                               Text = x.BranchName,
+                                               Value = x.BranchId.ToString()
+                                           }).ToList();
             ViewBag.v = values;
             return View();
         }
@@ -48,11 +45,11 @@ namespace KidKinder.Controllers
         public ActionResult UpdateTeacher(int id)
         {
             List<SelectListItem> values = (from x in context.Branches.ToList()
-                                          select new SelectListItem
-                                          {
-                                              Text = x.BranchName,
-                                              Value = x.BranchId.ToString()
-                                          }).ToList();
+                                           select new SelectListItem
+                                           {
+                                               Text = x.BranchName,
+                                               Value = x.BranchId.ToString()
+                                           }).ToList();
             ViewBag.v = values;
             var value = context.Teachers.Find(id);
             return View(value);

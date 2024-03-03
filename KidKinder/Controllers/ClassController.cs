@@ -1,9 +1,6 @@
 ﻿using KidKinder.Context;
 using KidKinder.Entities;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 
 namespace KidKinder.Controllers
@@ -23,9 +20,18 @@ namespace KidKinder.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult AddClass(ClassRoom p)
+        public ActionResult AddClass(ClassRoom classroom)
         {
-            return View();
+            context.ClassRooms.Add(classroom);
+            context.SaveChanges();
+            return RedirectToAction("ClassList");
+        }
+        public ActionResult DeleteClass(int id)
+        {
+            var value = context.ClassRooms.Find(id);
+            context.ClassRooms.Remove(value);
+            context.SaveChanges();
+            return RedirectToAction("ClassList");
         }
 
         [HttpGet]
@@ -49,6 +55,7 @@ namespace KidKinder.Controllers
             context.SaveChanges();
             return RedirectToAction("ClassList");
         }
+
 
 
     }

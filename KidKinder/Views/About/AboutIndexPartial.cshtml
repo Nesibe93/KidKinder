@@ -1,5 +1,4 @@
-﻿@using KidKinder.Entities
-@model List<About>
+﻿@model List<KidKinder.Entities.About>
 
 <div class="container-fluid py-5" id="about">
     <div class="container">
@@ -12,29 +11,18 @@
                          alt="" />
                 </div>
                 <div class="col-lg-7">
-
                     <p class="section-title pr-5">
-
 
                         <span class="pr-2">@item.Header </span>
                     </p>
                     <h1 class="mb-4">@item.Title</h1>
                     <p>
-                        @item.Description.Substring(0,252)
-                        @*@ViewBag.About*@
-
+                        @item.Description
                     </p>
-                    <div class="row pt-2 pb-4">
-                        <div class="col-6 col-md-4">
-                            <img class="img-fluid rounded" src="@item.SmallImageUrl" alt="" />
-                        </div>
-                        @Html.Action("PartialAboutList", "Default")
-                    </div>
-                    <a href="/About/Index/" class="btn btn-primary mt-2 py-2 px-4">Detaylar</a>
-
                 </div>
             }
         </div>
 
     </div>
 </div>
+

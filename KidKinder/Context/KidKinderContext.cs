@@ -1,13 +1,9 @@
 ﻿using KidKinder.Entities;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Linq;
-using System.Web;
 
 namespace KidKinder.Context
 {
-    public class KidKinderContext :DbContext 
+    public class KidKinderContext : DbContext
     {
         public DbSet<About> Abouts { get; set; }
         public DbSet<AboutList> AboutLists { get; set; }

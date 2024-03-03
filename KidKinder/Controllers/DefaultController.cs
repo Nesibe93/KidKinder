@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using KidKinder.Context;
+using KidKinder.Entities;
 using System.Data.Entity;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
-using KidKinder.Context;
-using KidKinder.Entities;
 
 namespace KidKinder.Controllers
 {
@@ -13,7 +10,7 @@ namespace KidKinder.Controllers
     {
 
         KidKinderContext context = new KidKinderContext();
-        
+
         public ActionResult Index()
         {
             return View();
@@ -41,13 +38,15 @@ namespace KidKinder.Controllers
         }
         public PartialViewResult PartialAbout()
         {
-           
-           var degerler = context.Abouts.ToList();
+            //var values= context.Abouts.Select(x => x.Description.Substring(0, 100)).ToList();
+            //return PartialView(values);
+
+            var degerler = context.Abouts.ToList();
             return PartialView(degerler);
         }
         public PartialViewResult PartialClassRooms()
         {
-            var values = context.ClassRooms.ToList();
+            var values = context.ClassRooms.OrderByDescending(x => x.ClassRoomId).Take(3).ToList();
             return PartialView(values);
         }
         [HttpGet]

@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using KidKinder.Context;
+using KidKinder.Entities;
 using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
-using KidKinder.Context;
-using KidKinder.Entities;
 
 
 namespace KidKinder.Controllers
@@ -15,7 +12,7 @@ namespace KidKinder.Controllers
     {
         KidKinderContext context = new KidKinderContext();
 
-       [HttpGet]
+        [HttpGet]
         public ActionResult AdminLogin()
         {
             return View();
@@ -28,13 +25,13 @@ namespace KidKinder.Controllers
             {
                 FormsAuthentication.SetAuthCookie(admin.Username, true);
                 Session["Username"] = result.Username.ToString();
-                return RedirectToAction("TeacherList","Teacher");
+                return RedirectToAction("TeacherList", "Teacher");
             }
             else
             {
                 return RedirectToAction("AdminLogin", "Login");
             }
-            
+
         }
         public ActionResult Logout()
         {

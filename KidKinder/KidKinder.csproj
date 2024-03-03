@@ -125,6 +125,7 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AdminLayoutController.cs" />
     <Compile Include="Controllers\ClassController.cs" />
+    <Compile Include="Controllers\ClassRoomController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\DashboardController.cs" />
     <Compile Include="Controllers\DefaultController.cs" />
@@ -231,6 +232,9 @@
     <Content Include="Templates\kidkinder-1.0.0\img\class-3.jpg" />
     <Content Include="Templates\kidkinder-1.0.0\img\detail.jpg" />
     <Content Include="Templates\kidkinder-1.0.0\img\header.png" />
+    <Content Include="Templates\kidkinder-1.0.0\img\kidbilim.jpg" />
+    <Content Include="Templates\kidkinder-1.0.0\img\kiddrama.png" />
+    <Content Include="Templates\kidkinder-1.0.0\img\kidrobo.jpg" />
     <Content Include="Templates\kidkinder-1.0.0\img\portfolio-1.jpg" />
     <Content Include="Templates\kidkinder-1.0.0\img\portfolio-2.jpg" />
     <Content Include="Templates\kidkinder-1.0.0\img\portfolio-3.jpg" />
@@ -776,6 +780,11 @@
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap.css.map" />
     <Content Include="Templates\Login_v1\vendor\bootstrap\css\bootstrap.min.css.map" />
     <Content Include="Views\About\Index.cshtml" />
+    <Content Include="Views\Class\AddClass.cshtml" />
+    <Content Include="Views\About\AboutHeaderPartial.cshtml" />
+    <Content Include="Views\ClassRoom\Index.cshtml" />
+    <Content Include="Views\ClassRoom\ClassRoomHeaderPartial.cshtml" />
+    <Content Include="Views\About\AboutIndexPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

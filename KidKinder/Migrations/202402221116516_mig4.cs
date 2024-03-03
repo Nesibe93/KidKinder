@@ -1,8 +1,7 @@
 ﻿namespace KidKinder.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class mig4 : DbMigration
     {
         public override void Up()
@@ -11,7 +10,7 @@
             CreateIndex("dbo.Teachers", "BranchId");
             AddForeignKey("dbo.Teachers", "BranchId", "dbo.Branches", "BranchId", cascadeDelete: true);
         }
-        
+
         public override void Down()
         {
             DropForeignKey("dbo.Teachers", "BranchId", "dbo.Branches");

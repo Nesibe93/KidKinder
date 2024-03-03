@@ -1,10 +1,10 @@
 ﻿
+
 @{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_AnaLayout.cshtml";
 }
 
-    @Html.Action("PartialAbout", "_AnaLayout")
-    @Html.Action("PartialAboutList", "_AnaLayout")
-    @Html.Action("PartialService", "_AnaLayout")
-    @Html.Action("PartialTeacher", "_AnaLayout")
+@Html.Action("AboutHeaderPartial", "About")
+@Html.Action("AboutIndexPartial", "About")
+
