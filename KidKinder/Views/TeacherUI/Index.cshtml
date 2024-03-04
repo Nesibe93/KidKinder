@@ -1,0 +1,9 @@
+﻿@model List<KidKinder.Entities.Teacher>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AnaLayout.cshtml";
+}
+@Html.Action("TeacherHeaderPartial", "TeacherUI")
+
+@Html.Action("TeacherIndexPartial", "TeacherUI")
+

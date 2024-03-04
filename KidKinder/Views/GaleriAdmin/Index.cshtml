@@ -1,0 +1,79 @@
+﻿@model List<KidKinder.Entities.Gallery>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<div class="pcoded-inner-content">
+    <!-- Main-body start -->
+    <div class="main-body">
+        <div class="page-wrapper">
+            <!-- Page-body start -->
+            <div class="page-body">
+                <!-- Basic table card start -->
+                <div class="card">
+                    <div class="card-header">
+                        <br />
+                        <h4>Galeri Tablosu</h4>
+                        <div class="card-header-right">
+                            <ul class="list-unstyled card-option">
+                                <li><i class="fa fa fa-wrench open-card-option"></i></li>
+                                <li><i class="fa fa-window-maximize full-card"></i></li>
+                                <li><i class="fa fa-minus minimize-card"></i></li>
+                                <li><i class="fa fa-refresh reload-card"></i></li>
+                                <li><i class="fa fa-trash close-card"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-block table-border-style">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr bgcolor="#F2F3F4">
+                                        <th scope="col">#</th>
+                                        <th>Görsel</th>
+                                        <th>Durum</th>
+                                        <th>Görsel Güncelle</th>
+                                        <th>Sil</th>
+                                        <th>Güncelle</th>
+
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+
+                                        <tr>
+                                            <th scope="row">@item.GalleryId</th>
+                                            <td><img src="@item.ImageUrl" height="50" /></td>
+                                            <td>
+                                                @if (item.Status)
+                                                {
+                                                    <span class="badge badge-success">Aktif</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-danger">Pasif</span>
+                                                }
+                                            </td>
+                                            <td><a href="/GaleriAdmin/ImageStatusUpdate/@item.GalleryId" class="badge badge-info badge-md">Görsel Güncelle</a></td>
+                                            <td><a href="/GaleriAdmin/GalleryDelete/@item.GalleryId" class="badge badge-danger badge-md">Sil</a></td>
+                                            <td><a href="/GaleriAdmin/GalleryUpdate/@item.GalleryId" class="badge badge-success badge-md">Güncelle</a></td>
+
+                                        </tr>
+
+                                    }
+                                </tbody>
+
+                            </table>
+                            <a href="/GaleriAdmin/CreateGallery/" class="btn btn-primary">Yeni Görsel Girişi </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

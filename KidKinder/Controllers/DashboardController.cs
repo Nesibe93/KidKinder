@@ -24,6 +24,16 @@ namespace KidKinder.Controllers
 
             ViewBag.TotalSeatsData = totalSeatsData;
 
+
+            ViewBag.Comment = context.Testimonials.Count().ToString();
+            ViewBag.picture = context.Galleries.Count().ToString();
+            ViewBag.branch = context.Branches.Count().ToString();
+            ViewBag.service = context.Services.Count().ToString();
+            ViewBag.message = context.Contacts.Count().ToString();
+            ViewBag.subscribes = context.MailSubscribes.Count().ToString();
+            ViewBag.teacher = context.Teachers.Count().ToString();
+            ViewBag.Classs = context.ClassRooms.Count().ToString();
+
             return View();
 
 
