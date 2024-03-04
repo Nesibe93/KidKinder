@@ -23,12 +23,12 @@ Bu proje, Bir kreş sitesidir
 - Genel sistem ayarlarını ve yapılandırmalarını yönetme
 - Mail kontrol etme ve silme
 - İstatistiklere ulaşma
-![Adminpaneli1](https://github.com/Nesibe93/KidKinder/assets/125722258/e7aa1a03-cbdf-43f9-a07f-22879e9cc890)
-![Adminpaneli2](https://github.com/Nesibe93/KidKinder/assets/125722258/0577760d-a7f0-4226-b0e1-97ef69862a82)
-![Adminpaneli3](https://github.com/Nesibe93/KidKinder/assets/125722258/3b50941c-da78-4a5e-87e4-d837df97dd29)
 
 ### <img width="22" height="22" src="https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/35303ec6-8a66-4244-92fe-1fd1fe2a9124" alt="code"/>Login
 ![default2](https://github.com/Nesibe93/KidKinder/assets/125722258/33923293-0f45-4a1d-8e37-4a814308abfb)
+![Adminpaneli1](https://github.com/Nesibe93/KidKinder/assets/125722258/e7aa1a03-cbdf-43f9-a07f-22879e9cc890)
+![Adminpaneli2](https://github.com/Nesibe93/KidKinder/assets/125722258/0577760d-a7f0-4226-b0e1-97ef69862a82)
+![Adminpaneli3](https://github.com/Nesibe93/KidKinder/assets/125722258/3b50941c-da78-4a5e-87e4-d837df97dd29)
 
 ### <img width="22" height="22" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-home-resume-flaticons-lineal-color-flat-icons.png" alt="external-home-resume-flaticons-lineal-color-flat-icons"/>Anasayfa
 ![Default1](https://github.com/Nesibe93/KidKinder/assets/125722258/f7fcd614-bc3d-4559-83bc-f1a90c9aa554)
