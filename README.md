@@ -1,8 +1,8 @@
-## *Kreş Projesi** <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="24" height="24" />
-Bu proje, Yazılım alanında oluşturduğum portfolio'nun dinamik ve yönetilebilir halidir.
+## *Kreş Projesi* <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="24" height="24" />
+Bu proje, Bir kreş sitesidir
 ### Projeye Genel Bakış👁️‍🗨️
-- Kullanıcılar, dinamik bir Portfolyo oluşturabilir ve güncelleyebilir.
-- Portfolyo içeriği, kullanıcı dostu bir arayüzle düzenlenebilir.
+- Kullanıcılar, kreşin tüm bilgilerine ulaşabilir
+- Kullanıcılar mail gönderebilir
 - Veritabanı kullanılarak kişisel bilgiler güvenli bir şekilde depolanır.
 #### **`Kullanılan Teknolojiler`**
 + ASP.NET Framework
@@ -12,11 +12,16 @@ Bu proje, Yazılım alanında oluşturduğum portfolio'nun dinamik ve yönetileb
 + Css
 + Javascript
 + Bootstrap
++ Entity Framework Code first
++ Error Page
++ Authorize İşlemleri
++ Validasyon
 ### Admin Paneli🛠️
 **`Admin Paneli Neler Yapabilir?`**
 - Sayfaları ve içeriği düzenleme yetkisi
 - Veritabanı Yönetimi, Verileri görüntüleme ve düzenleme
 - Genel sistem ayarlarını ve yapılandırmalarını yönetme
+- Mail kontrol etme ve silme
 ![Adminpaneli1](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/5f0ad581-89cd-48d0-a16b-93779e8cbcca)
 ![Adminpaneli2](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/ea625a23-b8d0-4fd3-b84c-46cd6fd6718a)
 ![Adminpaneli3](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/262b6fae-8c91-4d09-b3f5-f46957eb9bda)
