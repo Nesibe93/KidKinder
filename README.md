@@ -1,5 +1,5 @@
 ## Kreş Projesi <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="24" height="24" />
-Bu proje, Bir kreş sitesidir
+Bu proje, Bir kreş sitesi projesidir. Kreş ile ilgili detaylı bilgi içerir.
 ### Projeye Genel Bakış👁️‍🗨️
 - Kullanıcılar, kreşin tüm bilgilerine ulaşabilir
 - Kullanıcılar mail gönderebilir
@@ -24,8 +24,9 @@ Bu proje, Bir kreş sitesidir
 - Mail kontrol etme ve silme
 - İstatistiklere ulaşma
 
-### <img width="22" height="22" src="https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/35303ec6-8a66-4244-92fe-1fd1fe2a9124" alt="code"/>Login
+### <img width="22" height="22" src="https://github.com/Nesibe93/KidKinder/assets/125722258/109dce6f-55d0-4780-9520-f7f0bd2473de" alt="code"/>Login
 ![default2](https://github.com/Nesibe93/KidKinder/assets/125722258/33923293-0f45-4a1d-8e37-4a814308abfb)
+
 ![Adminpaneli1](https://github.com/Nesibe93/KidKinder/assets/125722258/e7aa1a03-cbdf-43f9-a07f-22879e9cc890)
 ![Adminpaneli2](https://github.com/Nesibe93/KidKinder/assets/125722258/0577760d-a7f0-4226-b0e1-97ef69862a82)
 ![Adminpaneli3](https://github.com/Nesibe93/KidKinder/assets/125722258/3b50941c-da78-4a5e-87e4-d837df97dd29)
@@ -37,17 +38,24 @@ Bu proje, Bir kreş sitesidir
 ![Default1](https://github.com/Nesibe93/KidKinder/assets/125722258/7d936c5e-1119-41bf-9f53-d6e477b32f07)
 
 
-### <img width="22" height="22" src="https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/35303ec6-8a66-4244-92fe-1fd1fe2a9124" alt="code"/>Sınıflar
-![default2](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/766e98c8-4971-46e2-9440-ef3e9da426ef)
-### <img width="20" height="20" src="https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/28404f72-383e-478e-9504-b0973d571f9f" alt="diploma"/>Galeri
-![default3](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/38510576-f224-4204-9318-e918ef101969)
+### <img width="22" height="22" src="https://github.com/Nesibe93/KidKinder/assets/125722258/8d32232a-013d-4e59-a899-d048e709926c" alt="code"/>Sınıflar
+![sınıf](https://github.com/Nesibe93/KidKinder/assets/125722258/77c33820-6079-4f15-8f0e-8fee3cc3c95b)
+
+
+### <img width="20" height="20" src="https://github.com/Nesibe93/KidKinder/assets/125722258/2321e6db-5549-4c3a-b5df-7372863a40a7" alt="diploma"/>Galeri
+![galeri](https://github.com/Nesibe93/KidKinder/assets/125722258/1d3aa0e8-7f5a-4f7b-a100-4ef7df4ded75)
+
+
 ### <img width="22" height="22" src="https://github.com/Nesibe93/MvcCV/assets/125722258/20e3a820-f95b-41d4-9a11-ea97ff9047f5"/>İletişim
-![default5](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/73159e87-643f-476e-acff-65a2eabe1615)
-### <img width="22" height="22" src="https://github.com/Nesibe93/MvcCV/assets/125722258/20e3a820-f95b-41d4-9a11-ea97ff9047f5"/>Error Page
-![default5](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/73159e87-643f-476e-acff-65a2eabe1615)
+![iletişim](https://github.com/Nesibe93/KidKinder/assets/125722258/a190e8a7-ffa9-42c4-a22b-d6eae32d9571)
+
+### <img width="22" height="22" src="https://github.com/Nesibe93/KidKinder/assets/125722258/ea16dcf5-ba5a-4c46-9561-8522b34cc931"/>Error Page
+![errorpage](https://github.com/Nesibe93/KidKinder/assets/125722258/afc373f1-67b7-41b3-a911-2f9bb9372832)
+
 
 ### <img width="22" height="22" src="https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/2f304682-903d-46db-9215-03a0f3f9a7d5"/>Database Diagram
-![Portfolyodiagram](https://github.com/Nesibe93/MeyawoPortfolio/assets/125722258/adeec9d9-3326-481c-b308-b42bd779c832)
+![Portfolyodiagram](https://github.com/Nesibe93/KidKinder/assets/125722258/0e40dcc2-df28-487d-aaa9-85e6ed9403e0)
+
 
 
 
